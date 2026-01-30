@@ -24,24 +24,5 @@ The Game Loop: A while loop runs the logic, checking if you still have "turns" (
 
 Letter Validation: A nested for loop iterates through the secret word to check if your guessed letter matches any character in the name.
 
-🚀 Getting Started
-Prerequisites
-
-Python 3.x is installed on your machine.
-
-Installation & Execution
-
-Clone the repository:
-
-Bash
-git clone https://github.com/your-username/superhero-guessing-game.git
-Navigate to the folder:
-
-Bash
-cd superhero-guessing-game
-Run the game:
-
-Bash
-python3 word_guessing_game.py
 🧠 Logic Breakdown
 The game is built on the DRY (Don't Repeat Yourself) principle. Rather than writing three separate games, the script dynamically assigns the words variable and runs a universal "Game Engine" loop at the end. This makes the code efficient, readable, and easy to expand!
